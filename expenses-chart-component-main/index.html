@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32"
+      href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Frontend Mentor | Expenses chart component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="uppercontainer">
+        <div class="balance">
+          <span class="small">My balance</span>
+          <h3 class="number">$921.48</h3></div>
+        <svg class="svg" width="72" height="48" viewBox="0 0 72 48"
+          xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle
+              fill="#382314" cx="48" cy="24" r="24" /><circle stroke="#FFF"
+                stroke-width="2" cx="24" cy="24" r="23" /></g></svg>
+          </div>
+
+
+
+          <div class="spending">
+            <h3 class="days"> Spending - Last 7 days</h3>
+            <canvas id="myChart"></canvas><hr
+              style="width: 330px;">
+            <div style="display:flex; justify-content:
+              space-between;margin: auto;color: hsl(25, 47%, 15%);">
+              <div class="footer">
+                <p style="font-size: small;color: rgba(75, 71, 73, 0.536);">Total
+                  this
+                  month</p>
+                <h1>$478.33</h1>
+              </div>
+              <div style="display:flex; flex-direction: column;
+                justify-content:
+                center;align-items: flex-end; font-size: small;">
+                <span>
+                  +2.4%
+                </span>
+                <span style="color: rgba(75, 71, 73, 0.536);">
+                  from last month
+                </span></div>
+            </div>
+          </div>
+        </div></div>
+      <script
+        src="https://cdn.jsdelivr.net/npm/chart.js">
+          </script>
+      <script src="index.js"></script>
+
+    </body>
+  </html>
